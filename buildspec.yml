@@ -6,4 +6,4 @@ commands:
 - echo Build complete
 artifacts:
 files:
-- '**/*'" > buildspec.yml
+- '**/*'"
