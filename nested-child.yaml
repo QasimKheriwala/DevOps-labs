@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Description: Child template to create an S3 bucket
+
+Resources:
+  ChildS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "nested-demo-bucket-${AWS::AccountId}-${AWS::Region}"

@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Description: Parent template to call nested S3 template
+
+Resources:
+  NestedStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      TemplateURL: "https://my-nested-stack-templates-3456.s3.apsouth-1.amazonaws.com/nested-child-s3.yaml"

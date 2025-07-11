@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Description: Simple S3 Bucket Stack
+
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "student-demo-bucket-${AWS::AccountId}"
