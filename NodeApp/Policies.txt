@@ -1,0 +1,12 @@
+Attach policy to:
+
+1. Beanstalk service role
+AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy
+AWSElasticBeanstalkService
+
+2. Instance Profile Role
+AWSElasticBeanstalkWebTier
+AWSElasticBeanstalkWorkerTier
+AWSElasticBeanstalkMulticontainerDocker
+AmazonS3FullAccess
+

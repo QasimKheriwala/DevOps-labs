@@ -1,0 +1,13 @@
+{
+  "name": "moodmirror-node",
+  "version": "1.0.0",
+  "description": "Mood Mirror app using Node.js on AWS Elastic Beanstalk",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
+
